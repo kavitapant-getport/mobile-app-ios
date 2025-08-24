@@ -50,3 +50,35 @@ pod install
 
 # Build and run
 ⌘ + R in Xcode
+```
+
+## Testing
+- **Unit Tests**: XCTest framework with 85% coverage
+- **UI Tests**: XCUITest for critical user flows
+- **Performance Tests**: XCTMetric for memory and CPU profiling
+- **Accessibility Tests**: Automated accessibility validation
+
+## App Store Configuration
+- **Bundle ID**: com.walmart.mobile.ios
+- **Version**: 3.2.1 (Build 1247)
+- **Target Devices**: iPhone, iPad (Universal)
+- **App Store Connect**: Automated deployment via Fastlane
+
+## Environment Configuration
+- **Development**: https://dev-api.walmart.com/mobile
+- **Staging**: https://staging-api.walmart.com/mobile
+- **Production**: https://api.walmart.com/mobile
+
+## CI/CD Pipeline
+- **Source Control**: GitHub with GitFlow branching
+- **Build System**: Xcode Cloud + GitHub Actions
+- **Testing**: Automated testing on every PR
+- **Deployment**: Fastlane for App Store submission
+- **Code Quality**: SwiftLint + SonarQube analysis
+
+## Team
+- **Owner**: iOS Mobile Engineering Team
+- **Design**: Walmart Mobile UX Team  
+- **QA**: Mobile Testing Team
+- **DevOps**: Mobile Platform Team
+- **Slack**: #ios-mobile-support
